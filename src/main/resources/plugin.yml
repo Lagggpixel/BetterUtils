@@ -1,0 +1,12 @@
+name: BetterUtils
+version: '${project.version}'
+main: me.lagggpixel.betterutils.Main
+api-version: 1.19
+commands:
+  ping:
+    permission: utils.ping
+    permission-message: §cNo permission
+
+permissions:
+  utils.ping:
+    description: Ping command
